@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.7.3" />
+    <PackageReference Include="Microsoft.build" Version="16.10.0" />
     <PackageReference Include="newtonsoft.json" Version="13.0.1" />
   </ItemGroup>
-
 </Project>
